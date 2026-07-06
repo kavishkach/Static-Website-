@@ -1,5 +1,5 @@
 import './globals.css';
-import Link from 'next/link'; // පිටු අතර මාරු වෙන්න මේක ඕනේ කරනවා
+import Link from 'next/link'; 
 
 export const metadata = {
   title: 'SK SOLUTION',
@@ -11,7 +11,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-slate-900 text-slate-100 antialiased">
         
-        {/* Navigation Bar එක */}
         <nav className="flex items-center justify-between px-8 py-5 border-b border-slate-800 bg-slate-950/50 backdrop-blur-md sticky top-0">
           <div className="text-xl font-bold text-amber-500 tracking-wider">
             SK SOLUTION
@@ -23,7 +22,7 @@ export default function RootLayout({ children }) {
           </div>
         </nav>
 
-        {/* පිටුවේ අන්තර්ගතය පෙනෙන තැන */}
+ 
         {children}
 
       </body>
